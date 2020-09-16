@@ -1,0 +1,78 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a, a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: inherit;
+	font-style: inherit;
+}
+img{
+	vertical-align: top;
+}
+/*=========================================Nullstyle=========================================*/
+
+.header__list p{
+	color: rgba(17, 0, 255, 0.123);
+}
+
+#link{
+	color: rgb(255, 153, 0);
+}
+
+.link {
+	color: rgb(109, 221, 64);
+}
+
+h3{
+	color: red;
+}
+
+.article h2{
+	color: blueviolet;
+}
+
+.article__text > h3{
+	color: blue;
+}
+
+.article__image + p {
+	color: seagreen;
+}
+
+h3 + p {
+	color: steelblue;
+}
+
+.article__link.link{
+	color: violet;
+}
+
+div.article__text{
+	color: rgb(0, 87, 87);
+}
+
+.article__author .article__paragraph{
+	color: rgb(255, 0, 170);
+}
+
+.article__author p {
+	color: teal;
+}
+
+.footer {
+	color: yellowgreen;
+}
+
+.footer  li{
+	color: steelblue;
+}
